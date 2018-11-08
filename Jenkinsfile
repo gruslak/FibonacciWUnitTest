@@ -18,7 +18,7 @@ pipeline{
     }
     stage('unit test'){
       steps{
-        bat '"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\MSTest.exe" /resultsfile:"Results.trx" /testcontainer:"Fibonacci.Test/bin/Debug/Fibonacci.Test.dll" /nologo
+        bat '"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/Common7/IDE/MSTest.exe" /resultsfile:"Results.trx" /testcontainer:"Fibonacci.Test/bin/Debug/Fibonacci.Test.dll" /nologo
       }
     }
   }
